@@ -19,6 +19,9 @@ setup(
     packages=['clevercss'],
     description='python inspired sass-like css preprocessor',
     long_description=readme_text,
+    requires = [
+        'cssutils',
+    ],
     classifiers=[
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python'
